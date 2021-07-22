@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  font-family: "Lora", serif;
+}
+
+/* Página centrada*/
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+:root {
+  --primario: #385e97;
+  --secundario: #7b7b7b;
+  --negro: #000000;
+  --blanco: #ffffff;
+  --azulado: #666e87;
+}
+
+/*Header*/
+
+/*Lados de Barra */
+.gv-header {
+  background-color: var(--negro);
+  display: flex;
+  justify-content: space-around;
+  color: var(--blanco);
+  width: 100%;
+}
+
+/* Limite de Barra */
+.gv-header__title {
+  margin: 10px;
+}
+
+/*Distancia */
+.gv-header__menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.gv-header__menu_item {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--blanco);
+  display: flex;
+  align-items: center;
+}
+
+/*PortadA*/
+
+.gv-portada {
+  height: 239px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Mi Inicio */
+.gv-portada__title {
+  font-size: 72px;
+  color: var(--blanco);
+}
+
+/*Separadores */
+
+.gv-separador-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gv-separador {
+  width: 70%;
+  border-bottom: 3px solid var(--negro);
+  text-align: center;
+}
+
+.gv-separador_general {
+  border-bottom: 3px solid var(--negro);
+}
+
+.gv-separador_inicio {
+  border-bottom: 3px solid var(--negro);
+  width: 80%;
+}
+
+
+
+.gv-portada-inicio_bg {
+  background-image: url("../images/portadainicio.png");
+  background-size: 100% 500px;
+}
+
+/*Mis Inicios */
+
+  .gv-inicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    gap: 50px;
+  }
+
+.gv-inicios__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 21px;
+}
+
+.gv-inicios__title {
+  font-size: 64px;
+  width: 200px;
+}
+
+/*FRASE ELEGIDA*/
+.gv-inicios__title2 {
+  font-size: 40px;
+  font-weight: 500;
+  max-width: 565px;
+}
+
+.gv-inicios__txt {
+  max-width: 560px;
+  font-size: 24px;
+}
+
+/*Hobbies*/
+.gv-container {
+  min-width: 1200px;
+}
+.gv-portada-hobbies_bg {
+  background-image: url("../images/portadahobbies.png");
+  background-size: 100% 500px;
+}
+
+.gv-hobbies_title {
+  border-bottom: 3px solid var(--negro);
+  margin-top: 40px;
+}
+
+.gv-hobbies_frase {
+  font-size: 35px;
+  font-weight: 700;
+  max-width: 923px;
+  margin-top: 35px;
+  margin-bottom: 42px;
+  max-width: 700px;
+}
+
+.gv-hobbies_list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.gv-hobbies_list__item {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gv-hobbies_list__img {
+  width: 570px;
+  height: 392px;
+}
+
+.gv-hobbies_list__txt {
+  font-size: 30px;
+  max-width: 550px;
+}
+
+/*Estudios y experiencias */
+
+.gv-portada-estudios_bg {
+  background-image: url("../images/portadaestudios.png");
+  background-size: 100% 500px;
+}
+
+.gv-title {
+  border-bottom: 3px solid var(--negro);
+  margin-top: 40px;
+}
+
+.gv-estudios__pregunta {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.gv-estudios__parrafo {
+  max-width: 650px;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 15px;
+}
+
+.gv-acercademi {
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.gv-acercademi__title {
+  font-weight: 700;
+  font-size: 58px;
+}
+
+.gv-acercademi__parrafo {
+  font-size: 24px;
+  font-weight: 400;
+  max-width: 500px;
+  text-align: left;
+}
+
+.gv-trabajos {
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.gv-trabajos__frase {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.gv-trabajos__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.gv-trabajos__title {
+  font-weight: 700;
+  font-size: 58px;
+}
+
+.gv-trabajos__parrafo {
+  font-size: 24px;
+  font-weight: 400;
+  max-width: 500px;
+  text-align: left;
+}
+
+.gv-computadoras {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 70px;
+  margin-bottom: 150px;
+}
+
+/*Metas*/
+
+.gv-portada-metas_bg {
+  background-image: url("../images/portadametas.png");
+  background-size: 100% 500px;
+}
+
+.gb-metas__pregunta {
+  padding-bottom: 30px;
+  border-bottom: 2px solid black;
+  font-weight: 700;
+  font-size: 52px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.gv-metas__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+
+.gv-metas__info__title {
+  text-align: center;
+}
+
+.gv-metas__txt {
+  max-width: 500px;
+  padding: 45px;
+}
+
+.gv-netas__txt--border {
+  border-bottom: 2px solid black;
+}
+
+.gv-imgs {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.gv-imgs__img {
+  width: 420px;
+  height: 350px;
+}
+
+/*Contacto */
+
+/*Carousel características*/
+.gv-carousel {
+  max-width: 1200px;
+  height: 520px;
+}
+
+.gv-carousel__img {
+  width: 368px;
+  height: 368px;
+  border-radius: 50%;
+  transition: 500ms ease-in-out; /*Tiempo en agrandar */
+}
+
+/*Tamaño al agrandar*/
+.gv-carousel__img:hover {
+  transform: scale(1.5);
+}
+
+.gv-contactame {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.gv-contactame__title {
+  font-weight: 700;
+  font-size: 55px;
+}
+
+.gv-contactame__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 530px;
+  margin-top: 80px;
+}
+
+.gv-form__input {
+  border: none;
+  background-color: var(--secundario);
+  color: var(--blanco);
+  margin: 10px;
+  padding: 10px;
+}
+
+.gv-form__input::placeholder {
+  color: var(--blanco);
+  padding: 10px;
+}
+
+.gv-form__textarea {
+  margin: 10px;
+  padding: 10px;
+  background-color: var(--secundario);
+  color: var(--blanco);
+  height: 150px;
+}
+
+/*FOOTER*/
+
+.gv-footer {
+  background-image: url("../images/Rectangle\ 2.png");
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+    /* Limites de Footer */
+    .gv-footer__frase {
+      margin-top: 57px;
+      display: flex;
+      flex-direction: column;
+    }
+
+.gv-footer__frase_txt {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.gv-footer__bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+    /*Gabriel Vasquez "Footer" */
+    .gv-footer__bottom_left_name {
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    /* Bienvenidos (Frase) */
+    .gv-footer__bottom_left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .gv-footer__bottom_left p {
+      max-width: 126px;
+      font-size: 16px;
+    }
+
+    .gv-footer__bottom_right {
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-weight: bold;
+    }
